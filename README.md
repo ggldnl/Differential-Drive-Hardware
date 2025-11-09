@@ -2,7 +2,7 @@
 
 This repository contains the Gerber files, Bill of Materials and STL/3MF files for my Differential Drive robot.
 
-For a complete overview of the project refer to the [main Differential-Drive repository](github.com/ggldnl/Differential-Drive.git). Take also a look to the [repository containing the Controller](github.com/ggldnl/Differential-Drive-Controller).
+For a complete overview of the project refer to the [main Differential-Drive repository](https://github.com/ggldnl/Differential-Drive.git). Take also a look to the [repository containing the Controller](https://github.com/ggldnl/Differential-Drive-Controller).
 I documented the design process, construction and theory in [this article](https://ggldnl.github.io/projects/differential_drive/index.html).
 
 ## PCB and Electronics
@@ -57,4 +57,4 @@ All the parts are printed in PLA except for the tires that are printed in TPU.
 | On/off Switch | 1 | The 3d printed mount is compatible with a DPDT Mini Toggle Switch | 
 
 ## 🤝 Contribution
-Feel free to contribute by opening issues or submitting pull requests. For further information, check out the [main Hexapod repository](github.com/ggldnl/Differential-Drive). Give a ⭐️ to this project if you liked the content.
+Feel free to contribute by opening issues or submitting pull requests. For further information, check out the [main Hexapod repository](https://github.com/ggldnl/Differential-Drive). Give a ⭐️ to this project if you liked the content.
