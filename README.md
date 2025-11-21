@@ -55,4 +55,4 @@ All the parts are printed in PLA except for the tires that are printed in TPU.
 | On/off Switch | 1 | The 3d printed mount is compatible with a DPDT Mini Toggle Switch | 
 
 ## 🤝 Contribution
-Feel free to contribute by opening issues or submitting pull requests. For further information, check out the [main Hexapod repository](https://github.com/ggldnl/Differential-Drive). Give a ⭐️ to this project if you liked the content.
+Feel free to contribute by opening issues or submitting pull requests. For further information, check out the [repository containing the Controller](https://github.com/ggldnl/Differential-Drive). Give a ⭐️ to this project if you liked the content.
