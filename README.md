@@ -2,7 +2,7 @@
 
 This repository contains the Gerber files, Bill of Materials and STL/3MF files for my Differential Drive robot.
 
-For a complete overview of the project refer to the [main Differential-Drive repository](https://github.com/ggldnl/Differential-Drive.git). Take also a look to the [repository containing the Controller](https://github.com/ggldnl/Differential-Drive-Controller).
+Take also a look to the [repository containing the Controller](https://github.com/ggldnl/Differential-Drive-Controller.git).
 I documented the design process, construction and theory in [this article](https://ggldnl.github.io/projects/differential_drive/index.html).
 
 ## PCB and Electronics
@@ -13,18 +13,16 @@ I documented the design process, construction and theory in [this article](https
 </div>
 </br>
 
-The PCB integrates all main components for power, control, and communication. 
+Summary of the main components and their function:
 
-| Component                      | Description                                                                                           |
+| Component                          | Description                                                                                           |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Raspberry Pi Pico                  | Main processing unit running a ROS2 node.                                                             |
-| Arduino Nano                       | Near-real time processing unit managing motor control, sensors, communication and low level tasks.    |
+| Raspberry Pi Pico                  | Main processing unit. Can act as a high-level node in a larger system, receiving messages from external processes and sending commands to the Arduino.|
+| Arduino Nano                       | Near-real time processing unit managing motor control, sensors, communication, ...                    |
 | DRV8833 Dual H-Bridge              | Controls the direction and speed of two DC motors using PWM signals.                                  |
 | N20 Geared DC Motors (60RPM)       | Provide locomotion for the differential drive; each of them has a magnetic encoder.                   |
-| I2C Interfacing connector | Connector to interface with I2C devices. |
-| Analog A0-A3 pins connector | Reserved for future expansion; provides access to pins A0-A3; can be used to read analog sensors or control inputs. |
-
-<!--| ZMR 8A Dual BEC      | Provides two independent outputs to power the motors at 6V and the other electronics at 5V.                                 |-->
+| I2C Interfacing connector          | Connector to interface with I2C devices.                                                              |
+| Analog A0-A3 pins connector        | Reserved for future expansion; provides access to pins A0-A3; can be used to read analog sensors or control inputs. |
 
 ## Mechanical Design
 
